@@ -164,6 +164,8 @@
                     el.addClass("fadeInLeft ftco-animated");
                   } else if (effect === "fadeInRight") {
                     el.addClass("fadeInRight ftco-animated");
+                  } else if (effect === "fadeInDown") {
+                    el.addClass("fadeInDown ftco-animated");
                   } else {
                     el.addClass("fadeInUp ftco-animated");
                   }

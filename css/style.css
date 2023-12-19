@@ -12940,8 +12940,9 @@ textarea.form-control {
   position: fixed;
   left: 0;
   top: 0;
-  width: 100%;
+  width: 100vw;
   z-index: 9000;
+  overflow-x: hidden;
 }
 
 .ctn-preloader .animation-preloader {
@@ -13516,6 +13517,13 @@ header a {
   .carousel .list .item .title,
   .carousel .list .item .topic {
     font-size: 6.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .navbar-brand img {
+    width: unset;
+    height: 70px;
   }
 }
 /* nav */
