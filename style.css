@@ -13527,3 +13527,10 @@ header a {
   }
 }
 /* nav */
+@media screen and (max-width: 576px) {
+  .ftco-navbar-light .btn-group .dropdown-menu .dropdown-item {
+    padding: 20px;
+    padding-left: 35px;
+    padding-right: 2px;
+  }
+}
